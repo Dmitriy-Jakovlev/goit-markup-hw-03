@@ -10,6 +10,7 @@
 body {
   font-family: var(--main-font);
   font-style: normal;
+  width: 1600px;
 }
 /*==========COMPL==========*/
 *,
@@ -253,7 +254,6 @@ img {
 /*==========FOOTER==========*/
 
 .holder {
-  width: 1600px;
   height: 252px;
   background-color: #2f303a;
   padding-top: 60px;
