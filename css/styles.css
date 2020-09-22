@@ -11,7 +11,6 @@ body {
   font-family: var(--main-font);
   font-style: normal;
   width: 1600px;
-  margin: ;
 }
 /*==========COMPL==========*/
 *,
@@ -207,7 +206,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-. .team-list-title {
+.team-list-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -254,15 +253,14 @@ img {
 
 /*==========FOOTER==========*/
 
-.holder {
+.footer {
   width: 1600px;
-  height: 252px;
+  margin: 0px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
-  padding-right: 215px;
 }
+
 .address-footer {
   font-style: normal;
   margin-top: 20px;
