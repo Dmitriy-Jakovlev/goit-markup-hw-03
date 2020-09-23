@@ -249,13 +249,15 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 /*==========FOOTER==========*/
 
 .footer {
+  display: block;
+  margin: 0 auto;
   width: 1600px;
-  margin: 0px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -265,8 +267,8 @@ img {
   font-style: normal;
   margin-top: 20px;
 }
-.footer-list-item:not(:last-child) {
-  margin-bottom: 9px;
+.footer-list-item:not(:first-child) {
+  margin-top: 9px;
 }
 
 .footer-list-item {
