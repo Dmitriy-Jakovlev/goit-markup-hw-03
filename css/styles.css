@@ -341,6 +341,7 @@ img {
   flex-wrap: wrap;
 }
 .aside-list-item {
+  display: block;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
