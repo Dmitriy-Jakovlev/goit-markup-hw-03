@@ -123,8 +123,10 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
+
   color: #ffffff;
+  margin: 0 auto;
+  width: 700px;
 }
 .modal-btn {
   font-family: var(--main-font);
@@ -140,6 +142,7 @@ img {
   background-color: var(--accent-color);
   border-radius: 5px;
   border: 0px;
+  margin-top: 30px;
 }
 /*==========FEATURES==========*/
 
