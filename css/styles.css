@@ -10,7 +10,6 @@
 body {
   font-family: var(--main-font);
   font-style: normal;
-  width: 1600px;
 }
 /*==========COMPL==========*/
 *,
@@ -100,6 +99,11 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--subtitle-color);
+}
+
+main {
+  width: 1600px;
+  margin: 0 auto;
 }
 
 /*==========HERO==========*/
