@@ -101,6 +101,7 @@ img {
   color: var(--subtitle-color);
 }
 
+/*==============main===============*/
 main {
   width: 1600px;
   margin: 0 auto;
@@ -109,8 +110,20 @@ main {
 /*==========HERO==========*/
 .hero {
   display: block;
+
+  margin: 0 auto;
+  max-width: 1600px;
   height: 600px;
   background-color: #2f303a;
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/header-img/Img-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero .container {
@@ -119,6 +132,7 @@ main {
   margin: 0 auto;
   text-align: center;
 }
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -178,6 +192,59 @@ main {
   color: var(--subtitle-color);
   width: 270px;
 }
+
+/*===========features-icon=============*/
+.features-list-item-antenna::before {
+  content: '';
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  background-image: url(../images/icon/antenna.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 30px;
+}
+
+.features-list-item-clock::before {
+  content: '';
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  background-image: url(../images/icon/clock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 30px;
+}
+
+.features-list-item-diagram::before {
+  content: '';
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  background-image: url(../images/icon/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 30px;
+}
+
+.features-list-item-astronaut::before {
+  content: '';
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  background-image: url(../images/icon/astronaut.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*==========ACTIVITY==========*/
 
 .activity-title {
